@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;  
+
+
+#header{
+    background-image: url('../images/herobackgound.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hover{
+    position:fixed;
+    background-color: rgb(188, 199, 248);
+    opacity: 0.5;
+}
