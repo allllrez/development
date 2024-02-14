@@ -2,7 +2,15 @@
 module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily :{
+        "Vazir" : "Vazir" ,
+        "VazirMedium" : "Vazir  Medium" ,
+        "VazirBold" : "Vazir Bold" ,
+        "VazirThin" : "Vazir Thin" ,
+
+      }
+    },
   },
   plugins: [
     function({addVariant}){
